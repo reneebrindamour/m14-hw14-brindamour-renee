@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renee Brindamour</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/vey3ain.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #navbar {
+            background-color: #4A8C8C !important;
+        }
+        .nav-link {
+            color: white !important;
+            font-size: 1.5rem;
+        }
+        .nav-link:hover {
+            color: lightgray !important;
+        }
+        .navbar-brand {
+            color: white !important;
+            font-size: 1.5rem;
+        }
+        .navbar-toggler {
+            border-color: #white !important;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+        }
+
+
+        #footer {
+            background-color: #4A8C8C;
+        }
+
+        #footer span {
+            color: white !important;
+        }
+
+        h2 {
+            font-size: 40px;
+            font-family: "lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #4A8C8C;
+        }
+
+        h5 {
+            font-family: "roboto", sans-serif;
+            font-weight: 600;
+            font-style: bold;
+            font-size: 20px;
+            color: #508C96;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-family: "roboto", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #333333;
+        }
+
+        .card {
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            background-color: #4A8C8C;
+            color: white;
+        }
+
+        .card-body {
+            font-size: 1rem;
+        }
+
+        .card-footer {
+            background-color: transparent;
+        }
+
+        .btn {
+            background-color:#508C96;
+        }
+        
+        .btn-custom:hover {
+            background-color: white;
+            color: #508c96;
+            border: 1px solid #508c96;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Renee Brindamour</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">About <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#goals">Career Goals</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <!-- About Section -->
+        <section id="about" class="mb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/me.jpg" class="img-fluid rounded-circle" alt="Renee Brindamour">
+                </div>
+                <div class="col-md-8">
+                    <h2>About Me</h2>
+                    <p>I reside in southeast Michigan, sharing my home with my son, a loyal dog, and two affectionate cats. My life is enriched by a diverse array of hobbies, which encompass mountain hiking, reading, fishing, photography, experimenting with new
+                        recipes, and exploring the world through travel.<br><br> I earned a Bachelor of Arts degree in graphic design and media arts with a concentration in web design from Southern New Hampshire University. I graduated Summa Cum Laude, which is
+                        an honor that signifies "with highest honors." Furthermore, I also studied professional photography at the New York Institute of Photography.<br><br> Due to my outstanding academic achievements, I was nominated by the university and granted
+                        membership in one of their prestigious honor societies, known as the National Society of Leadership and Success. I successfully completed an intensive leadership training program that extended beyond the mere acquisition of leadership
+                        skills. The National Society of Leadership and Success places a strong emphasis on holding its members accountable in various areas, including leadership, integrity, work ethic, goal setting, high achievement, fostering positivity,
+                        and serving as a positive role model.<br><br> Over the past decade, I have amassed extensive experience as a freelance graphic designer. Furthermore, I have been an integral part of a marketing team where collaborative efforts were crucial.
+                        In this role, my duties involved creating diverse digital and print materials such as digital banners, social media content, marketing emails, company holiday cards, posters, infographics, signage, and icons. Additionally, I effectively
+                        administered the company's website utilizing WordPress, and I also executed customizations using HTML, CSS. JavaScript, and jQuery.<br><br> Prior to embarking on my design journey, I spent eight years as a realtor in the Ann Arbor, Michigan
+                        area, during which I garnered awards for my outstanding performance as a multi-million dollar real estate sales producer.<br><br> My extensive experience as an independent contractor over the years has honed my ability to be a proactive
+                        self-starter. Simultaneously, my tenure in collaborative team environments has underscored the vital significance of effective teamwork and collaboration. These experiences have instilled in me a unique blend of traits, as I am inherently
+                        motivated, brimming with energy, and fueled by boundless creativity.<br><br> I am currently working as a web designer for the University of Michigan - Michigan Medicine. Additionally, I am pursuing a Master's of Arts in Mass Communication,
+                        Web Design, and Online Communication from the University of Florida with an expected graduation year of May 2026.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Hobbies Section with Bootstrap Cards -->
+        <section id="hobbies" class="mb-5">
+            <h2>Hobbies</h2>
+            <div class="row g-4">
+                <!-- Photography Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title">Photography</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                In my free time, I enjoy capturing moments through photography. I have a particular interest in landscape and portrait photography, and I love experimenting with different techniques and equipment to create stunning visuals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Travel Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title">Travel</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Traveling is another passion of mine. I enjoy exploring new places, experiencing different cultures, and photographing my journeys. Traveling inspires my creativity and helps me gain fresh perspectives that I incorporate into my work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cooking Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title">Cooking</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Cooking is a great way for me to relax and experiment with new recipes. I enjoy preparing dishes from different cuisines and sharing them with friends and family.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Goals Section -->
+        <section id="goals" class="mt-5 mb-5">
+            <h2>Career Goals</h2>
+            <p>
+                I once aspired to be a web designer. In March 2024, I achieved this goal when I was hired as a web designer for the University of Michigan. However, I believe that success is not a destination but a journey.<br><br> My current goal is to secure a web design position that offers more creative freedom and development opportunities. Ultimately, I aspire to lead a team of creative designers and contribute to the growth of others by sharing my knowledge and experience in web design.
+            </p>
+            <a href="https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm" target="_blank" class="btn btn-primary btn-custom">Learn More about Web Designers</a>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3" id="footer">
+        <div class="container text-center">
+            <span>Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Renee Brindamour
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
